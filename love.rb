@@ -76,6 +76,6 @@ class Especially
   end
 
   def all_of_us
-    "Ayah, Umar & Soffiyah!"
+    "Ayah, Umar & Sofiyyah!"
   end
 end
