@@ -1,6 +1,6 @@
 # nuraishah
 
-A simple love letter for my wife on her birthday. Run happy_birthday.rb for a secret birthday message!
+A simple love letter for my wife on her birthday.
 
 ## Background
 
@@ -9,3 +9,9 @@ She wanted a diamond. But I told her diamonds are a cartel-controlled, common ge
 She got me a MacBook.
 
 Since I very well can't afford a ruby, I can only give her the only other ruby which I find to be just as beautiful as her, the Ruby language.
+
+## Run
+
+Download love.rb & happy_birthday.rb, and place them in the same folder.
+
+Run happy_birthday.rb for a secret birthday message!
