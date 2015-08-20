@@ -1,6 +1,6 @@
 # nuraishah
 
-A simple love letter for my wife on her birthday.
+A simple love letter for my wife on her birthday. Run happy_birthday.rb for a secret birthday message!
 
 ## Background
 
