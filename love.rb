@@ -17,7 +17,7 @@ def past_birthday_celebrations?
 end
 
 def today
-  "31st "
+  "36th "
 end
 
 def you
@@ -47,11 +47,15 @@ def we_love(everyone); end
 alias :family  :yes
 alias :friends :yes
 
-def making(things, for_people); self and for_each_other end
+def making(things, for_people)
+  self and for_each_other
+end
 
 def for_each_other; end
 
-def so; :awesome! end
+def so
+  :awesome!
+end
 
 class This
   class << self
