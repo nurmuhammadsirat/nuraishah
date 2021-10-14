@@ -1,3 +1,5 @@
+BIRTH_YEAR = 1982
+
 def dearest(name, &re)
   print __method__.to_s.capitalize
   puts " " + name.to_s.capitalize + ","
@@ -17,7 +19,7 @@ def past_birthday_celebrations?
 end
 
 def today
-  "36th "
+  (year = (Time.now.year - BIRTH_YEAR))% 10 == 1 ? "#{year}st " : year % 10 == 2 ? "#{year}nd " : "#{year}th "
 end
 
 def you
