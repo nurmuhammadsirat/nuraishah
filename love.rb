@@ -1,4 +1,5 @@
 BIRTH_YEAR = 1982
+FAMILY = ["Ayah", "Umar", "Sofiyyah", "Moomoo", "Lilo"]
 
 def dearest(name, &re)
   print __method__.to_s.capitalize
@@ -82,6 +83,6 @@ class Especially
   end
 
   def all_of_us
-    "Ayah, Umar & Sofiyyah!"
+    FAMILY[0..FAMILY.length - 2].join(", ") + " & " + FAMILY[-1] + "!"
   end
 end
